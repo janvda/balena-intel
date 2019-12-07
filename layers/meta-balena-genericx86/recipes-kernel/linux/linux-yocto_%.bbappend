@@ -7,6 +7,7 @@ SRC_URI += " \
     file://0002-Revert-random-fix-crng_ready-test.patch \
     file://0007-BUGFIX-iwlwifi-mvm-Allow-multicast-~ta-frames-only-when-associated.patch \
     file://0008-BUGFIX-iwlwifi-mvm-Allow-multicast-~ta-frames-only-when-authorized.patch \
+    file://defconfig \
 "
 SRC_URI_append_surface-pro-6 = " \
     file://0003-ipts.patch \
