@@ -353,3 +353,5 @@ RESIN_CONFIGS_append_surface-go = " i2c_hid"
 RESIN_CONFIGS[i2c_hid] = " \
     CONFIG_I2C_HID=m \
 "
+
+RESIN_CONFIGS_append = " compress-kmodules"
