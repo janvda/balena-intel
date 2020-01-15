@@ -1,4 +1,18 @@
 - commits:
+    - subject: Change the state to 'new' in the coffee files
+      hash: 7441c84ab99d24cc0781c3bb4d1e2bee4f24a851
+      body: |
+        Change the state field to 'new'
+        instead of 'experimental'
+      footer:
+        Changelog-entry: Change the state to 'new' in the coffee files
+        changelog-entry: Change the state to 'new' in the coffee files
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.46.0+rev2
+  date: 2020-01-15T16:19:58.644Z
+- commits:
     - subject: Update meta-balena from v2.45.1 to v2.46.0
       hash: 350856bb58ea3991a50d60397b99dced298410f2
       body: |

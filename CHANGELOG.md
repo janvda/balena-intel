@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.46.0+rev2
+## (2020-01-15)
+
+* Change the state to 'new' in the coffee files [Vicentiu Galanopulo]
+
 # v2.46.0+rev1
 ## (2019-12-23)
 
