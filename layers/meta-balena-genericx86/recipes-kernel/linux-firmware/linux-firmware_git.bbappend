@@ -28,7 +28,11 @@ SRC_URI_append = " \
 SRCREV_raspbian-nf = "86e88fbf0345da49555d0ec34c80b4fbae7d0cd3"
 SRCREV_FORMAT = "default+raspbian-nf"
 
-PACKAGES =+ "${PN}-rtl8723b-bt"
+PACKAGES =+ "${PN}-rtl8723b-bt ${PN}-iwlwifi-3168"
+
+FILES_${PN}-iwlwifi-3168 = " \
+    /lib/firmware/iwlwifi-3168-29.ucode \
+    "
 
 FILES_${PN}-rtl8723b-bt = " \
     /lib/firmware/rtl_bt/rtl8723b_fw.bin \
